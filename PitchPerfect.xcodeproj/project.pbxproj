@@ -14,13 +14,16 @@
 		279CA093183972E2004A9311 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 279CA092183972E2004A9311 /* main.m */; };
 		279CA097183972E2004A9311 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 279CA096183972E2004A9311 /* AppDelegate.m */; };
 		279CA09A183972E2004A9311 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 279CA098183972E2004A9311 /* Main.storyboard */; };
-		279CA09D183972E2004A9311 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 279CA09C183972E2004A9311 /* ViewController.m */; };
+		279CA09D183972E2004A9311 /* PPHomeScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 279CA09C183972E2004A9311 /* PPHomeScreenViewController.m */; };
 		279CA09F183972E2004A9311 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 279CA09E183972E2004A9311 /* Images.xcassets */; };
 		279CA0A6183972E2004A9311 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 279CA0A5183972E2004A9311 /* XCTest.framework */; };
 		279CA0A7183972E2004A9311 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 279CA086183972E2004A9311 /* Foundation.framework */; };
 		279CA0A8183972E2004A9311 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 279CA08A183972E2004A9311 /* UIKit.framework */; };
 		279CA0B0183972E2004A9311 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 279CA0AE183972E2004A9311 /* InfoPlist.strings */; };
 		279CA0B2183972E2004A9311 /* PitchPerfectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 279CA0B1183972E2004A9311 /* PitchPerfectTests.m */; };
+		279CA0C018397490004A9311 /* PPSettingsScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 279CA0BF18397490004A9311 /* PPSettingsScreenViewController.m */; };
+		279CA0C3183974B5004A9311 /* PPGameScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 279CA0C2183974B5004A9311 /* PPGameScreenViewController.m */; };
+		279CA0C618398491004A9311 /* PPViewControllerInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 279CA0C518398491004A9311 /* PPViewControllerInteractor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +48,21 @@
 		279CA095183972E2004A9311 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		279CA096183972E2004A9311 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		279CA099183972E2004A9311 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		279CA09B183972E2004A9311 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		279CA09C183972E2004A9311 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		279CA09B183972E2004A9311 /* PPHomeScreenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PPHomeScreenViewController.h; sourceTree = "<group>"; };
+		279CA09C183972E2004A9311 /* PPHomeScreenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPHomeScreenViewController.m; sourceTree = "<group>"; };
 		279CA09E183972E2004A9311 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		279CA0A4183972E2004A9311 /* PitchPerfectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PitchPerfectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		279CA0A5183972E2004A9311 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		279CA0AD183972E2004A9311 /* PitchPerfectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PitchPerfectTests-Info.plist"; sourceTree = "<group>"; };
 		279CA0AF183972E2004A9311 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		279CA0B1183972E2004A9311 /* PitchPerfectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PitchPerfectTests.m; sourceTree = "<group>"; };
+		279CA0BE18397490004A9311 /* PPSettingsScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPSettingsScreenViewController.h; sourceTree = "<group>"; };
+		279CA0BF18397490004A9311 /* PPSettingsScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPSettingsScreenViewController.m; sourceTree = "<group>"; };
+		279CA0C1183974B5004A9311 /* PPGameScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPGameScreenViewController.h; sourceTree = "<group>"; };
+		279CA0C2183974B5004A9311 /* PPGameScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPGameScreenViewController.m; sourceTree = "<group>"; };
+		279CA0C418398491004A9311 /* PPViewControllerInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPViewControllerInteractor.h; sourceTree = "<group>"; };
+		279CA0C518398491004A9311 /* PPViewControllerInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPViewControllerInteractor.m; sourceTree = "<group>"; };
+		279CA0CA183BA6F0004A9311 /* PPMenuViewControllerPanTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PPMenuViewControllerPanTarget.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,12 +122,9 @@
 		279CA08C183972E2004A9311 /* PitchPerfect */ = {
 			isa = PBXGroup;
 			children = (
-				279CA095183972E2004A9311 /* AppDelegate.h */,
-				279CA096183972E2004A9311 /* AppDelegate.m */,
-				279CA098183972E2004A9311 /* Main.storyboard */,
-				279CA09B183972E2004A9311 /* ViewController.h */,
-				279CA09C183972E2004A9311 /* ViewController.m */,
-				279CA09E183972E2004A9311 /* Images.xcassets */,
+				279CA0BD1839730F004A9311 /* Controller */,
+				279CA0BC1839730A004A9311 /* View */,
+				279CA0BB183972FC004A9311 /* Model */,
 				279CA08D183972E2004A9311 /* Supporting Files */,
 			);
 			path = PitchPerfect;
@@ -126,6 +133,9 @@
 		279CA08D183972E2004A9311 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				279CA095183972E2004A9311 /* AppDelegate.h */,
+				279CA096183972E2004A9311 /* AppDelegate.m */,
+				279CA09E183972E2004A9311 /* Images.xcassets */,
 				279CA08E183972E2004A9311 /* PitchPerfect-Info.plist */,
 				279CA08F183972E2004A9311 /* InfoPlist.strings */,
 				279CA092183972E2004A9311 /* main.m */,
@@ -150,6 +160,37 @@
 				279CA0AE183972E2004A9311 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		279CA0BB183972FC004A9311 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				279CA0C418398491004A9311 /* PPViewControllerInteractor.h */,
+				279CA0C518398491004A9311 /* PPViewControllerInteractor.m */,
+				279CA0CA183BA6F0004A9311 /* PPMenuViewControllerPanTarget.h */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		279CA0BC1839730A004A9311 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				279CA098183972E2004A9311 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		279CA0BD1839730F004A9311 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				279CA09B183972E2004A9311 /* PPHomeScreenViewController.h */,
+				279CA09C183972E2004A9311 /* PPHomeScreenViewController.m */,
+				279CA0BE18397490004A9311 /* PPSettingsScreenViewController.h */,
+				279CA0BF18397490004A9311 /* PPSettingsScreenViewController.m */,
+				279CA0C1183974B5004A9311 /* PPGameScreenViewController.h */,
+				279CA0C2183974B5004A9311 /* PPGameScreenViewController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,8 +290,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				279CA09D183972E2004A9311 /* ViewController.m in Sources */,
+				279CA09D183972E2004A9311 /* PPHomeScreenViewController.m in Sources */,
+				279CA0C618398491004A9311 /* PPViewControllerInteractor.m in Sources */,
+				279CA0C3183974B5004A9311 /* PPGameScreenViewController.m in Sources */,
 				279CA097183972E2004A9311 /* AppDelegate.m in Sources */,
+				279CA0C018397490004A9311 /* PPSettingsScreenViewController.m in Sources */,
 				279CA093183972E2004A9311 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -460,6 +504,7 @@
 				279CA0B7183972E2004A9311 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		279CA0B8183972E2004A9311 /* Build configuration list for PBXNativeTarget "PitchPerfectTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +513,7 @@
 				279CA0BA183972E2004A9311 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
